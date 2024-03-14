@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Clients\ClientsIndex;
 use App\Livewire\Dashboard\Main;
 use Illuminate\Support\Facades\Route;
 
@@ -20,4 +21,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', Main::class)->name('home');
+
+
+Route::middleware([
+    'auth:sanctum',
+    'verified'
+])->group(function () {
+    Route::get('/home', Main::class)->name('home');
+    Route::get('/clientes', ClientsIndex::class)->name('clients.index');
+});

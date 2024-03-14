@@ -9,13 +9,13 @@
         <meta content="Themesbrand" name="author" />
 
         <link rel="shortcut icon" href="assets/images/favicon.ico">
-        <link href="assets/libs/jsvectormap/css/jsvectormap.css" rel="stylesheet" type="text/css" />
-        <link href="assets/libs/swiper/swiper-bundle.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
-        <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet" type="text/css"/>
         @livewireStyles
 		@stack('custom_styles')
     </head>

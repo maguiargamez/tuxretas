@@ -8,13 +8,13 @@
         <meta content="Administrador de ligas de futbol" />
         <meta content="Themesbrand" name="author" />
 
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="{{ asset('img/favicon2.ico') }}">
         <link href="assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
         <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet" type="text/css"/>
         <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet" type="text/css"/>
         @livewireStyles
 		@stack('custom_styles')

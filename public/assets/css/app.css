@@ -3895,8 +3895,8 @@ code {
   --vz-vertical-menu-dropdown-box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
 }
 :root[data-sidebar=dark] {
-  --vz-vertical-menu-bg: #405189;
-  --vz-vertical-menu-border: #405189;
+  --vz-vertical-menu-bg: #031c3a;
+  --vz-vertical-menu-border: #031c3a;
   --vz-vertical-menu-item-color: #abb9e8;
   --vz-vertical-menu-item-bg: rgba(255, 255, 255, 0.15);
   --vz-vertical-menu-item-hover-color: #fff;
@@ -4042,8 +4042,8 @@ code {
 [data-bs-theme=dark][data-sidebar=dark] {
   /*--vz-vertical-menu-bg: #212529;
   --vz-vertical-menu-border: #212529;*/
-  --vz-vertical-menu-bg: #212529;
-  --vz-vertical-menu-border: #212529; 
+  --vz-vertical-menu-bg: #001739;
+  --vz-vertical-menu-border: #001739; 
   --vz-vertical-menu-item-color: #7c7f90;
   --vz-vertical-menu-item-bg: rgba(255, 255, 255, 0.15);
   --vz-vertical-menu-item-hover-color: #fff;

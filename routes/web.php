@@ -1,7 +1,8 @@
 <?php
 
-use App\Livewire\Clients\ClientsIndex;
+
 use App\Livewire\Dashboard\Main;
+use App\Livewire\Modules\Clients\ClientsIndex;
 use Illuminate\Support\Facades\Route;
 
 /*

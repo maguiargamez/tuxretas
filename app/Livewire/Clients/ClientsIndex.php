@@ -6,6 +6,7 @@ use Livewire\Component;
 
 class ClientsIndex extends Component
 {
+    public $title="Clientes";
     public function render()
     {
         return view('livewire.clients.clients-index');

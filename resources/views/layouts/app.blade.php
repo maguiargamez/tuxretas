@@ -27,7 +27,9 @@
             <div class="vertical-overlay"></div>
             <div class="main-content">
                 <div class="page-content">
-                    {{ $slot }}	
+                    <div class="container-fluid">
+                        {{ $slot }}	
+                    </div>
                 </div>
             </div>
         </div>

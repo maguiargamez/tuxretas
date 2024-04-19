@@ -43,4 +43,13 @@ class Client extends Model
     {
         return $this->hasMany(League::class);
     }
+
+    public function scopeSearch($query, $term)
+    {
+        //$term = "%$term%";
+        $query->where(function ($query) use ($term) {
+            $query
+                ->where('firstname', 'like', '%'.$term.'%');
+        });
+    }
 }
